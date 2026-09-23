@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIS Intelligent Assistant — SIH Prototype</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="app">
+    <aside class="side">
+      <div class="brand">
+        <div class="logo">BIS</div>
+        <div>
+          <h2>Intelligent Assistant</h2>
+        </div>
+      </div>
+
+      <div class="nav">
+        <div class="active">💬 Ask Assistant</div>
+        <div>📚 Standards</div>
+        <div>✓ Certification</div>
+        <div>🧪 Testing & Labs</div>
+        <div>🏷 Hallmarking</div>
+        <div>👥 Consumer Services</div>
+      </div>
+      <div class="note"><br>This demonstration uses a curated sample knowledge base. Production
+        version will connect to authorized BIS documents and live retrieval.</div>
+    </aside>
+    <main class="main">
+      <header class="top">
+        <h1>AI-powered BIS Knowledge Assistant</h1><span class="badge">● BIS Sahayak</span>
+      </header>
+      <section class="chat" id="chat">
+        <div class="welcome">
+          <h2>How can I help with BIS?</h2>
+          <p>Ask about Indian Standards, certification, testing, licensing, hallmarking or consumer services.</p>
+          <div class="examples">
+            <button class="example" onclick="ask(this.textContent)">What is BIS product certification?</button>
+            <button class="example" onclick="ask(this.textContent)">What is ISI Mark?</button>
+            <button class="example" onclick="ask(this.textContent)">How does hallmarking work?</button>
+            <button class="example" onclick="ask(this.textContent)">How can I find an applicable Indian
+              Standard?</button>
+          </div>
+        </div>
+      </section>
+      <div class="composer">
+        <div class="inputrow"><input id="q" placeholder="Ask a question about BIS..."
+            onkeydown="if(event.key==='Enter')send()"><button class="send" onclick="send()">Ask</button></div>
+        <div class="footer"> • Source references shown for demonstration</div>
+      </div>
+    </main>
+  </div>
+  <script src="index.js"> </script>
+</body>
+
+</html>
