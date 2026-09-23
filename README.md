@@ -186,14 +186,16 @@ Developed as part of the **Smart India Hackathon 2026**.
 
 **Project Name:** BIS Sahayak  
 **Problem Statement:** SIH26107  
-**Category:** Software
+**Category:** Software<br/>
+**Team Name:** Quick Witted
 ### Team Members
 
 1. **Jayanth C S**
 2. **Dheeraj M**
 3. **Bhoomika L R**
 4. **Harshitha**
-5. **Kareem Saab**
+5. **Spoorthi**
+6. **Kareem Saab**
 
 ---
 
